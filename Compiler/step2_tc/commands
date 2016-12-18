@@ -1,0 +1,44 @@
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test1.micro > out
+diff -y out ../step2_tc/output/test1.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test2.micro > out
+diff -y out ../step2_tc/output/test2.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test3.micro > out
+diff -y out ../step2_tc/output/test3.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test4.micro > out
+diff -y out ../step2_tc/output/test4.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test5.micro > out
+diff -y out ../step2_tc/output/test5.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test6.micro > out
+diff -y out ../step2_tc/output/test6.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test7.micro > out
+diff -y out ../step2_tc/output/test7.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test8.micro > out
+diff -y out ../step2_tc/output/test8.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test9.micro > out
+diff -y out ../step2_tc/output/test9.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test10.micro > out
+diff -y out ../step2_tc/output/test10.out
+
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test11.micro > out
+diff -y out ../step2_tc/output/test11.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test12.micro > out
+diff -y out ../step2_tc/output/test12.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test13.micro > out
+diff -y out ../step2_tc/output/test13.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test14.micro > out
+diff -y out ../step2_tc/output/test14.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test15.micro > out
+diff -y out ../step2_tc/output/test15.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test16.micro > out
+diff -y out ../step2_tc/output/test16.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test17.micro > out
+diff -y out ../step2_tc/output/test17.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test18.micro > out
+diff -y out ../step2_tc/output/test18.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test19.micro > out
+diff -y out ../step2_tc/output/test19.out
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test20.micro > out
+diff -y out ../step2_tc/output/test20.out
+
+java -cp lib/antlr.jar:classes/ Micro ../step2_tc/input/test21.micro > out
+diff -y out ../step2_tc/output/test21.out

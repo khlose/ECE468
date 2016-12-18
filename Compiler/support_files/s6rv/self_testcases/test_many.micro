@@ -1,0 +1,46 @@
+PROGRAM test
+BEGIN
+	STRING input := "Please enter an integer number: ";
+	STRING eol := "\n";
+	STRING sentence := "Cordelia Brown\n";
+	STRING space := " ";
+	
+
+	FUNCTION INT doo (INT a, INT b, INT c, FLOAT d, FLOAT e, INT f, INT g, INT h, INT i)
+	BEGIN
+	  	INT res;
+		IF(d < e)
+			res := a*b*c + f*g*h*i;
+			RETURN res;
+		ELSIF(d > e)
+			res := a*b*c + f*g*h*i + 1;
+			RETURN res;
+		ENDIF
+		RETURN 0;
+	END
+
+	FUNCTION INT main ()
+	BEGIN
+		INT r0,r1,r2;
+		INT rr0,rr1,rr2,rr3;
+		FLOAT f0, f1;
+
+		INT j;
+		
+		READ(r0,r1,r2);
+		READ(rr0,rr1,rr2,rr3);
+		READ(f0,f1);
+
+		j := doo(r0,r1,r2,f0,f1,rr0,rr1,rr2,rr3);
+		WRITE(j, eol);
+
+		j := doo(r0,r1,r2,f1,f0,rr0,rr1,rr2,rr3);
+		WRITE(j, eol);
+		
+		j := doo(r0,r1,r2,1.0,1.0,rr0,rr1,rr2,rr3);
+		WRITE(j, eol);
+
+		j := doo(r0+r1-r2, r0*r1*r2, r1,  f0+f1+f0*f1, f1+f0*f1+f0+100.0, rr0, rr1, rr2*rr3/rr2/rr0+(rr0*(rr1+rr2)), doo(rr0,rr0,rr0,f0,f1,rr0,rr0,rr0,rr0));
+		WRITE(j, eol);
+	END
+END

@@ -1,0 +1,151 @@
+
+public class MicroBaseListener implements MicroListener {
+
+
+
+	@Override public void exitFunc_body(@NotNull MicroParser.Func_bodyContext ctx) { }
+
+
+
+	@Override public void exitStmt_list(@NotNull MicroParser.Stmt_listContext ctx) { }
+
+
+
+
+	@Override public void exitExpr(@NotNull MicroParser.ExprContext ctx) { }
+
+
+
+	@Override public void exitAny_type(@NotNull MicroParser.Any_typeContext ctx) { }
+
+
+
+	@Override public void exitCond(@NotNull MicroParser.CondContext ctx) { }
+
+
+
+
+	@Override public void exitAssign_expr(@NotNull MicroParser.Assign_exprContext ctx) { }
+
+
+
+	@Override public void exitRead_stmt(@NotNull MicroParser.Read_stmtContext ctx) { }
+
+
+
+	@Override public void exitId(@NotNull MicroParser.IdContext ctx) { }
+
+
+
+	@Override public void exitCall_expr(@NotNull MicroParser.Call_exprContext ctx) { }
+
+
+
+	@Override public void exitAddop(@NotNull MicroParser.AddopContext ctx) { }
+
+
+
+	@Override public void exitPrimary(@NotNull MicroParser.PrimaryContext ctx) { }
+
+
+
+	@Override public void exitVar_type(@NotNull MicroParser.Var_typeContext ctx) { }
+
+
+
+	@Override public void exitBase_stmt(@NotNull MicroParser.Base_stmtContext ctx) { }
+
+
+
+
+	@Override public void exitElse_part(@NotNull MicroParser.Else_partContext ctx) { }
+
+
+
+
+	@Override public void exitFactor_prefix(@NotNull MicroParser.Factor_prefixContext ctx) { }
+
+	
+	@Override public void exitExpr_prefix(@NotNull MicroParser.Expr_prefixContext ctx) { }
+
+	
+	@Override public void exitDecl(@NotNull MicroParser.DeclContext ctx) { }
+
+	
+	@Override public void exitString_decl(@NotNull MicroParser.String_declContext ctx) { }
+
+	
+	@Override public void exitPgm_body(@NotNull MicroParser.Pgm_bodyContext ctx) { }
+
+	@Override public void exitId_tail(@NotNull MicroParser.Id_tailContext ctx) { }
+
+
+	@Override public void exitPostfix_expr(@NotNull MicroParser.Postfix_exprContext ctx) { }
+
+	@Override public void exitDo_while_stmt(@NotNull MicroParser.Do_while_stmtContext ctx) { }
+
+	
+	@Override public void exitStmt(@NotNull MicroParser.StmtContext ctx) { }
+
+	@Override public void exitCompop(@NotNull MicroParser.CompopContext ctx) { }
+
+
+	@Override public void exitFactor(@NotNull MicroParser.FactorContext ctx) { }
+
+
+
+
+	@Override public void exitVar_decl(@NotNull MicroParser.Var_declContext ctx) { }
+
+
+
+	@Override public void exitParam_decl_tail(@NotNull MicroParser.Param_decl_tailContext ctx) { }
+
+
+
+	@Override public void exitAssign_stmt(@NotNull MicroParser.Assign_stmtContext ctx) { }
+
+
+
+	@Override public void exitFunc_declarations(@NotNull MicroParser.Func_declarationsContext ctx) { }
+
+
+
+	@Override public void exitWrite_stmt(@NotNull MicroParser.Write_stmtContext ctx) { }
+
+
+
+	@Override public void exitStr(@NotNull MicroParser.StrContext ctx) { }
+
+
+	
+	@Override public void exitParam_decl_list(@NotNull MicroParser.Param_decl_listContext ctx) { }
+
+
+
+	@Override public void exitReturn_stmt(@NotNull MicroParser.Return_stmtContext ctx) { }
+
+
+	
+	@Override public void exitIf_stmt(@NotNull MicroParser.If_stmtContext ctx) { }
+
+
+	
+	@Override public void exitParam_decl(@NotNull MicroParser.Param_declContext ctx) { }
+
+
+
+	
+	@Override public void exitExpr_list_tail(@NotNull MicroParser.Expr_list_tailContext ctx) { }
+
+
+
+	@Override public void exitMulop(@NotNull MicroParser.MulopContext ctx) { }
+
+
+
+	@Override public void exitExpr_list(@NotNull MicroParser.Expr_listContext ctx) { }
+
+
+	@Override public void exitEveryRule(@NotNull ParserRuleContext ctx) { }
+}

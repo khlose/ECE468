@@ -1,0 +1,41 @@
+PROGRAM test
+BEGIN
+	STRING input := "Please enter an integer number: ";
+	STRING eol := "\n";
+	STRING sentence := "Cordelia Brown\n";
+	
+	FUNCTION INT foo (INT a)
+	BEGIN
+	  	INT res;
+		res := a + 8;
+		RETURN res;
+	END
+
+	FUNCTION INT doo (INT a, INT b)
+	BEGIN
+	  	INT res;
+		res := a*b;
+		RETURN res;
+	END
+
+	FUNCTION INT main ()
+	BEGIN
+		INT a,b;
+		
+		WRITE(input);
+		READ(a,b);
+		
+		a := 1 + foo(a);
+		WRITE(a, eol);
+
+		b := 1+ doo(a, doo(a,b));
+		WRITE(b, eol);
+
+		--IF(foo(a) < foo(b))
+		IF(a<b)
+			WRITE(sentence, eol);
+		ENDIF
+		
+		RETURN 0;
+	END
+END

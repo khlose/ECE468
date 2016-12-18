@@ -1,0 +1,29 @@
+PROGRAM test
+BEGIN
+	FUNCTION INT ADD1(INT a)
+	BEGIN
+		IF(a = 0)
+			RETURN 800;
+		ENDIF
+		a := a + 1;
+		RETURN SUB2(a);
+	END
+
+	FUNCTION INT SUB2(INT a)
+	BEGIN
+		IF(a = 0)
+			RETURN 800;
+		ENDIF
+		a := a - 2;
+		RETURN ADD1(a);
+	END
+
+	FUNCTION INT main ()
+	BEGIN
+		INT a,b,c;
+		a := 100;
+		b := ADD1(a);
+		c := SUB2(a);
+		WRITE(a, b, c);
+	END
+END

@@ -1,0 +1,33 @@
+PROGRAM test
+BEGIN
+	STRING input := "Please enter an integer number: ";
+	STRING eol := "\n";
+	STRING sentence := "Cordelia Brown\n";
+	
+	FUNCTION INT foo (INT a)
+	BEGIN
+	  	INT res;
+		res := a + 5;
+		RETURN res;
+	END
+
+	FUNCTION INT doo (INT a, INT b)
+	BEGIN
+	  	INT res;
+		res := a*b;
+		RETURN res;
+	END
+
+	FUNCTION INT main ()
+	BEGIN
+		INT a,b,c,d;
+		READ(a,b);
+		d := doo(90,15) - doo(15,90);
+		WRITE(d, eol);
+
+		c := foo(doo(a,b));
+		WRITE(c, eol);
+		
+		RETURN 0;
+	END
+END
